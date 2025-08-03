@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/personal-java-workspace.iml" filepath="$PROJECT_DIR$/personal-java-workspace.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simplegui/simplegui.iml" filepath="$PROJECT_DIR$/simplegui/simplegui.iml" />
     </modules>
   </component>
 </project>

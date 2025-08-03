@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"com.gamzekoksalx.simplegui","c":"SimpleGUI","l":"main(String[])","u":"main(java.lang.String[])"},{"p":"com.gamzekoksalx.simplegui","c":"SimpleGUI","l":"SimpleGUI()","u":"%3Cinit%3E()"},{"p":"com.gamzekoksalx.simplegui","c":"SimpleGUI","l":"start(Stage)","u":"start(javafx.stage.Stage)"}];updateSearchResults();

@@ -1,0 +1,52 @@
+@options
+@packages
+@argfile
+--class-path
+'/Users/gamzeyilan/.m2/repository/org/openjfx/javafx-controls/21.0.1/javafx-controls-21.0.1.jar:/Users/gamzeyilan/.m2/repository/org/openjfx/javafx-graphics/21.0.1/javafx-graphics-21.0.1.jar:/Users/gamzeyilan/.m2/repository/org/openjfx/javafx-fxml/21.0.1/javafx-fxml-21.0.1.jar:/Users/gamzeyilan/.m2/repository/org/openjfx/javafx-web/21.0.1/javafx-web-21.0.1.jar:/Users/gamzeyilan/.m2/repository/org/openjfx/javafx-media/21.0.1/javafx-media-21.0.1.jar:/Users/gamzeyilan/.m2/repository/org/openjfx/javafx-swing/21.0.1/javafx-swing-21.0.1.jar:/Users/gamzeyilan/.m2/repository/org/openjfx/javafx-base/21.0.1/javafx-base-21.0.1.jar:/Users/gamzeyilan/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.8.10/kotlin-stdlib-common-1.8.10.jar:/Users/gamzeyilan/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar'
+--module-path
+'/Users/gamzeyilan/.m2/repository/org/kordamp/bootstrapfx/bootstrapfx-core/0.4.0/bootstrapfx-core-0.4.0.jar:/Users/gamzeyilan/.m2/repository/eu/hansolo/tilesfx/21.0.3/tilesfx-21.0.3.jar:/Users/gamzeyilan/.m2/repository/com/github/almasb/fxgl-core/17.3/fxgl-core-17.3.jar:/Users/gamzeyilan/.m2/repository/org/kordamp/ikonli/ikonli-core/12.3.1/ikonli-core-12.3.1.jar:/Users/gamzeyilan/.m2/repository/eu/hansolo/fx/countries/21.0.3/countries-21.0.3.jar:/Users/gamzeyilan/.m2/repository/com/gluonhq/attach/lifecycle/4.0.17/lifecycle-4.0.17.jar:/Users/gamzeyilan/.m2/repository/eu/hansolo/toolboxfx/21.0.3/toolboxfx-21.0.3.jar:/Users/gamzeyilan/.m2/repository/com/dlsc/formsfx/formsfx-core/11.6.0/formsfx-core-11.6.0.jar:/Users/gamzeyilan/.m2/repository/eu/hansolo/fx/heatmap/21.0.3/heatmap-21.0.3.jar:/Users/gamzeyilan/.m2/repository/com/gluonhq/attach/audio/4.0.17/audio-4.0.17.jar:/Users/gamzeyilan/.m2/repository/com/github/almasb/fxgl-entity/17.3/fxgl-entity-17.3.jar:/Users/gamzeyilan/.m2/repository/com/github/almasb/fxgl/17.3/fxgl-17.3.jar:/Users/gamzeyilan/.m2/repository/com/gluonhq/attach/storage/4.0.17/storage-4.0.17.jar:/Users/gamzeyilan/.m2/repository/com/github/almasb/fxgl-scene/17.3/fxgl-scene-17.3.jar:/Users/gamzeyilan/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.8.10/kotlin-stdlib-1.8.10.jar:/Users/gamzeyilan/.m2/repository/org/controlsfx/controlsfx/11.2.1/controlsfx-11.2.1.jar:/Users/gamzeyilan/.m2/repository/com/github/almasb/fxgl-io/17.3/fxgl-io-17.3.jar:/Users/gamzeyilan/.m2/repository/org/openjfx/javafx-media/21.0.1/javafx-media-21.0.1-mac-aarch64.jar:/Users/gamzeyilan/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.14.2/jackson-databind-2.14.2.jar:/Users/gamzeyilan/.m2/repository/org/kordamp/ikonli/ikonli-javafx/12.3.1/ikonli-javafx-12.3.1.jar:/Users/gamzeyilan/IdeaProjects/personal-java-workspace/simplegui/target/classes:/Users/gamzeyilan/.m2/repository/com/gluonhq/attach/util/4.0.17/util-4.0.17.jar:/Users/gamzeyilan/.m2/repository/org/openjfx/javafx-web/21.0.1/javafx-web-21.0.1-mac-aarch64.jar:/Users/gamzeyilan/.m2/repository/org/openjfx/javafx-swing/21.0.1/javafx-swing-21.0.1-mac-aarch64.jar:/Users/gamzeyilan/.m2/repository/org/openjfx/javafx-graphics/21.0.1/javafx-graphics-21.0.1-mac-aarch64.jar:/Users/gamzeyilan/.m2/repository/com/github/almasb/fxgl-gameplay/17.3/fxgl-gameplay-17.3.jar:/Users/gamzeyilan/.m2/repository/org/openjfx/javafx-controls/21.0.1/javafx-controls-21.0.1-mac-aarch64.jar:/Users/gamzeyilan/.m2/repository/eu/hansolo/toolbox/21.0.5/toolbox-21.0.5.jar:/Users/gamzeyilan/.m2/repository/net/synedra/validatorfx/0.5.0/validatorfx-0.5.0.jar:/Users/gamzeyilan/.m2/repository/org/openjfx/javafx-base/21.0.1/javafx-base-21.0.1-mac-aarch64.jar:/Users/gamzeyilan/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.14.2/jackson-core-2.14.2.jar:/Users/gamzeyilan/.m2/repository/org/openjfx/javafx-fxml/21.0.1/javafx-fxml-21.0.1-mac-aarch64.jar:/Users/gamzeyilan/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.14.2/jackson-annotations-2.14.2.jar'
+--patch-module
+com.gamzekoksalx.simplegui='/Users/gamzeyilan/IdeaProjects/personal-java-workspace/simplegui/src/main/java'
+-encoding
+'UTF-8'
+-protected
+-source
+'21'
+--module-source-path
+'/Users/gamzeyilan/IdeaProjects/personal-java-workspace/simplegui/javadoc/apidocs/src'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/Users/gamzeyilan/IdeaProjects/personal-java-workspace/simplegui/javadoc/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'simplegui 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'simplegui 1.0-SNAPSHOT API'
+com.gamzekoksalx.simplegui
+'/Users/gamzeyilan/IdeaProjects/personal-java-workspace/simplegui/src/main/java/module-info.java'
+/Users/gamzeyilan/IdeaProjects/personal-java-workspace/simplegui/javadoc/apidocs/tag-search-index.js = 1754216562925
+/Users/gamzeyilan/IdeaProjects/personal-java-workspace/simplegui/javadoc/apidocs/overview-tree.html = 1754216562920
+/Users/gamzeyilan/IdeaProjects/personal-java-workspace/simplegui/javadoc/apidocs/module-search-index.js = 1754216562924
+/Users/gamzeyilan/IdeaProjects/personal-java-workspace/simplegui/javadoc/apidocs/index.html = 1754216562929
+/Users/gamzeyilan/IdeaProjects/personal-java-workspace/simplegui/javadoc/apidocs/package-search-index.js = 1754216562925
+/Users/gamzeyilan/IdeaProjects/personal-java-workspace/simplegui/javadoc/apidocs/link.svg = 1754216562933
+/Users/gamzeyilan/IdeaProjects/personal-java-workspace/simplegui/javadoc/apidocs/index-all.html = 1754216562928
+/Users/gamzeyilan/IdeaProjects/personal-java-workspace/simplegui/javadoc/apidocs/allpackages-index.html = 1754216562924
+/Users/gamzeyilan/IdeaProjects/personal-java-workspace/simplegui/javadoc/apidocs/member-search-index.js = 1754216562925
+/Users/gamzeyilan/IdeaProjects/personal-java-workspace/simplegui/javadoc/apidocs/copy.svg = 1754216562932
+/Users/gamzeyilan/IdeaProjects/personal-java-workspace/simplegui/javadoc/apidocs/script.js = 1754216562932
+/Users/gamzeyilan/IdeaProjects/personal-java-workspace/simplegui/javadoc/apidocs/stylesheet.css = 1754216562932
+/Users/gamzeyilan/IdeaProjects/personal-java-workspace/simplegui/javadoc/apidocs/search-page.js = 1754216562936
+/Users/gamzeyilan/IdeaProjects/personal-java-workspace/simplegui/javadoc/apidocs/help-doc.html = 1754216562931
+/Users/gamzeyilan/IdeaProjects/personal-java-workspace/simplegui/javadoc/apidocs/element-list = 1754216562906
+/Users/gamzeyilan/IdeaProjects/personal-java-workspace/simplegui/javadoc/apidocs/search.html = 1754216562929
+/Users/gamzeyilan/IdeaProjects/personal-java-workspace/simplegui/javadoc/apidocs/allclasses-index.html = 1754216562923
+/Users/gamzeyilan/IdeaProjects/personal-java-workspace/simplegui/javadoc/apidocs/type-search-index.js = 1754216562925
+/Users/gamzeyilan/IdeaProjects/personal-java-workspace/simplegui/javadoc/apidocs/search.js = 1754216562933
