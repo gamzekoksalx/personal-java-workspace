@@ -16,9 +16,6 @@ public class BankAppGUI {
     /** Text field for user to enter amount */
     static JTextField amountField;
 
-    /**
-     * Launches the application window and sets up the GUI.
-     */
     public static void main(String[] args) {
         JFrame frame = new JFrame("Bank App");
         JPanel panel = new JPanel();
@@ -58,19 +55,25 @@ public class BankAppGUI {
         frame.setVisible(true);
     }
 
-    /**
-     * Adds the entered amount to the balance and updates the label.
-     */
+    /** Adds the entered amount to the balance and updates the label. */
     public static void deposit() {
-        balance += Double.parseDouble(amountField.getText());
-        balanceLabel.setText("Balance: $" + balance);
+        try {
+            double amount = Double.parseDouble(amountField.getText());
+            balance += amount;
+            balanceLabel.setText("Balance: $" + balance);
+        } catch (NumberFormatException ex) {
+            JOptionPane.showMessageDialog(null, "Please enter a valid number.", "Invalid Input", JOptionPane.ERROR_MESSAGE);
+        }
     }
 
-    /**
-     * Subtracts the entered amount from the balance and updates the label.
-     */
+    /** Subtracts the entered amount from the balance and updates the label. */
     public static void withdraw() {
-        balance -= Double.parseDouble(amountField.getText());
-        balanceLabel.setText("Balance: $" + balance);
+        try {
+            double amount = Double.parseDouble(amountField.getText());
+            balance -= amount;
+            balanceLabel.setText("Balance: $" + balance);
+        } catch (NumberFormatException ex) {
+            JOptionPane.showMessageDialog(null, "Please enter a valid number.", "Invalid Input", JOptionPane.ERROR_MESSAGE);
+        }
     }
 }
