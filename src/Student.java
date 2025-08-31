@@ -7,16 +7,22 @@ public class Student {
     private final String address;
 
     /**
-     * Creates a student with basic validation.
-     * @param rollno student roll number (> 0)
-     * @param name student name (non-blank)
-     * @param address student address (non-blank)
+     * Creates a student with validation.
+     * @param rollno student roll number (must not be negative or zero)
+     * @param name student name (must not be null or blank)
+     * @param address student address (must not be null or blank)
      * @throws IllegalArgumentException if inputs are invalid
      */
     public Student(int rollno, String name, String address) {
-        if (rollno <= 0) throw new IllegalArgumentException("rollno must be > 0");
-        if (name == null || name.trim().isEmpty()) throw new IllegalArgumentException("name required");
-        if (address == null || address.trim().isEmpty()) throw new IllegalArgumentException("address required");
+        if (rollno < 0) {
+            throw new IllegalArgumentException("rollno cannot be negative");
+        }
+        if (name == null || name.trim().isEmpty()) {
+            throw new IllegalArgumentException("name cannot be null or blank");
+        }
+        if (address == null || address.trim().isEmpty()) {
+            throw new IllegalArgumentException("address cannot be null or blank");
+        }
         this.rollno = rollno;
         this.name = name.trim();
         this.address = address.trim();
@@ -26,5 +32,8 @@ public class Student {
     public String getName() { return name; }
     public String getAddress() { return address; }
 
-    @Override public String toString() { return rollno + " - " + name + " (" + address + ")"; }
+    @Override
+    public String toString() {
+        return rollno + " - " + name + " (" + address + ")";
+    }
 }
