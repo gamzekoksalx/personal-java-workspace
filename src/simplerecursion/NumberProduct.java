@@ -20,11 +20,13 @@ public class NumberProduct {
         }
         if (numbersLeft == 0) return 1; // base case
 
+        // Validate that the next input is an integer
         while (!scanner.hasNextInt()) {
-            System.out.println("Invalid input. Please enter an integer:");
+            System.out.println("Invalid input. Please enter a valid integer:");
             scanner.next(); // discard invalid token
         }
 
-        return scanner.nextInt() * calculateProduct(scanner, numbersLeft - 1);
+        int number = scanner.nextInt();
+        return number * calculateProduct(scanner, numbersLeft - 1);
     }
 }
