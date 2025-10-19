@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"<Unnamed>","l":"CustomDeque"},{"p":"<Unnamed>","l":"DequeDemo"},{"p":"<Unnamed>","l":"DequeIterator"},{"p":"<Unnamed>","l":"DequeNode"}];updateSearchResults();
