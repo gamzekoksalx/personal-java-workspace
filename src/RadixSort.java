@@ -9,6 +9,14 @@ public class RadixSort {
     public static void radixSort(int[] numbers) {
         int n = numbers.length;
 
+        // --- NEW: support negatives by shifting to non-negative range ---
+        int minValue = numbers[0];
+        for (int v : numbers) if (v < minValue) minValue = v;
+        int shift = (minValue < 0) ? -minValue : 0; // shift >= 0
+        if (shift != 0) {
+            for (int i = 0; i < n; i++) numbers[i] += shift; // make all values >= 0
+        }
+
         // --- Step 0: Find max to know how many digit places we need ---
         // Cost: O(n)
         int maxValue = findMax(numbers);
@@ -51,9 +59,18 @@ public class RadixSort {
         }
         // Summing per pass: O(n + k)
         // Over d passes: O(d * (n + k))  → with constant k=10 → O(dn)
+
+        // --- NEW: undo shift so original values (incl. negatives) are restored ---
+        if (shift != 0) {
+            for (int i = 0; i < n; i++) numbers[i] -= shift;
+        }
     }
 
-    // Helper: find maximum value in the array → O(n)
+    /**
+     * Returns the maximum value in the array. Runs in O(n).
+     * @param arr input array (non-empty)
+     * @return largest element found
+     */
     private static int findMax(int[] arr) {
         int max = arr[0];
         for (int v : arr) {
